@@ -1,14 +1,14 @@
-Urdu and trw
+Urdu and Torwali
 
                             apertium-urd-trw
 ===============================================================================
 
 This is an Apertium language pair for translating between Urdu and
-trw. What you can use this language package for:
+Torwali. What you can use this language package for:
 
-* Translating between Urdu and trw
-* Morphological analysis of Urdu and trw
-* Part-of-speech tagging of Urdu and trw
+* Translating between Urdu and Torwali
+* Morphological analysis of Urdu and Torwali
+* Part-of-speech tagging of Urdu and Torwali
 
 For information on the latter two points, see subheading "For more
 information" below
