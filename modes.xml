@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<modes>
+
+  <!-- urd → trw -->
+
+  <mode name="urd-trw" install="yes" gendebug="yes">
+    <pipeline>
+      <program name="lt-proc -w">
+        <file name="urd-trw.automorf.bin"/>
+      </program>
+
+
+      <program name="cg-proc -w">
+        <file name="urd-trw.rlx.bin"/>
+      </program>
+      <program name="apertium-tagger -g $2">
+        <file name="urd-trw.prob"/>
+      </program>
+      <program name="apertium-pretransfer"/>
+      <program name="lt-proc -b">
+        <file name="urd-trw.autobil.bin"/>
+      </program>
+      <program name="lrx-proc">
+        <file name="urd-trw.autolex.bin"/>
+      </program>
+      <program name="apertium-transfer -b">
+        <file name="apertium-urd-trw.urd-trw.t1x"/>
+        <file name="urd-trw.t1x.bin"/>
+      </program>
+      <program name="apertium-interchunk">
+        <file name="apertium-urd-trw.urd-trw.t2x"/>
+        <file name="urd-trw.t2x.bin"/>
+      </program>
+      <program name="apertium-postchunk">
+        <file name="apertium-urd-trw.urd-trw.t3x"/>
+        <file name="urd-trw.t3x.bin"/>
+      </program>
+      <program name="lt-proc $1">
+        <file name="urd-trw.autogen.bin"/>
+      </program>
+
+      <program name="lt-proc -p">
+        <file name="urd-trw.autopgen.bin"/>
+      </program>
+    </pipeline>
+  </mode>
+
+  <!-- trw → urd -->
+
+  <mode name="trw-urd" install="yes" gendebug="yes">
+    <pipeline>
+      <program name="lt-proc -w">
+        <file name="trw-urd.automorf.bin"/>
+      </program>
+
+
+      <program name="cg-proc -w">
+        <file name="trw-urd.rlx.bin"/>
+      </program>
+      <program name="apertium-tagger -g $2">
+        <file name="trw-urd.prob"/>
+      </program>
+      <program name="apertium-pretransfer"/>
+      <program name="lt-proc -b">
+        <file name="trw-urd.autobil.bin"/>
+      </program>
+      <program name="lrx-proc">
+        <file name="trw-urd.autolex.bin"/>
+      </program>
+      <program name="apertium-transfer -b">
+        <file name="apertium-urd-trw.trw-urd.t1x"/>
+        <file name="trw-urd.t1x.bin"/>
+      </program>
+      <program name="apertium-interchunk">
+        <file name="apertium-urd-trw.trw-urd.t2x"/>
+        <file name="trw-urd.t2x.bin"/>
+      </program>
+      <program name="apertium-postchunk">
+        <file name="apertium-urd-trw.trw-urd.t3x"/>
+        <file name="trw-urd.t3x.bin"/>
+      </program>
+      <program name="lt-proc $1">
+        <file name="trw-urd.autogen.bin"/>
+      </program>
+
+      <program name="lt-proc -p">
+        <file name="trw-urd.autopgen.bin"/>
+      </program>
+    </pipeline>
+  </mode>
+</modes>
+
