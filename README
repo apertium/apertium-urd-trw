@@ -1,6 +1,6 @@
-#Urdu and Torwali
+# Urdu and Torwali
 
-##apertium-urd-trw
+## apertium-urd-trw
 
 This is an Apertium language pair for translating between Urdu and
 Torwali. What you can use this language package for:
@@ -12,7 +12,7 @@ Torwali. What you can use this language package for:
 For information on the latter two points, see subheading "For more
 information" below
 
-##Requirements
+## Requirements
 
 You will need the following software installed:
 
@@ -25,19 +25,21 @@ You will need the following software installed:
 
 If this does not make any sense, we recommend you look at: www.apertium.org
 
-##Compiling
+## Compiling
 
 Given the requirements being installed, you should be able to just run:
 
-```$ ./configure
+```
+$ ./configure
 $ make
-# make install```
+# make install
+```
 
 You can use './autogen.sh' instead of `./configure` you're compiling from
 SVN. If you installed any prerequisite language packages using a `--prefix`
 to `./configure`, make sure to give the same `--prefix` to `./configure` here.
 
-##Testing
+## Testing
 
 If you are in the source directory after running make, the following
 commands should work:
@@ -66,13 +68,13 @@ TODO test translated sentence 1
 * apertium-urd-trw.trw-urd.lrx  - Lexical selection rules for translating into Urdu
 * modes.xml                     - Translation modes
 
-##For more information
+## For more information
 
 * http://wiki.apertium.org/wiki/Installation
 * http://wiki.apertium.org/wiki/apertium-urd-trw
 * http://wiki.apertium.org/wiki/Using_an_lttoolbox_dictionary
 
-##Help and support
+## Help and support
 
 If you need help using this language pair or data, you can contact:
 
