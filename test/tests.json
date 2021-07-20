@@ -1,0 +1,10 @@
+{
+    "trw-urd": {
+        "input": "trw-urd-input.txt",
+        "mode": "trw-urd"
+    },
+    "urd-trw": {
+        "input": "urd-trw-input.txt",
+        "mode": "urd-trw"
+    }
+}

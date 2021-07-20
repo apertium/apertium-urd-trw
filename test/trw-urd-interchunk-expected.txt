@@ -1,0 +1,10 @@
+[603hjN93h0Bn#0] ^default<default>{^خوبی<n><f><pl>$}$
+[/603hjN93h0Bn]
+[9VJMJH5yvY3N#0] ^default<default>{^@ہو<v><inf>$}$
+[/9VJMJH5yvY3N]
+[D6DiO7DjgMO5#0] ^default<default>{^ہرایک<adj>$}$
+[/D6DiO7DjgMO5]
+[WO6u9doF568p#0] ^default<default>{^چشمہ<n><m><pl>$}$
+[/WO6u9doF568p]
+[hYnqrXGo4gCK#0] ^default<default>{^@بچُو<ij>$}$
+[/hYnqrXGo4gCK]
